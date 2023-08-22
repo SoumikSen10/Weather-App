@@ -140,3 +140,81 @@ footer{
     font-family:sans-serif;
     font-weight: bold;
 }
+
+/* 
+320px — 480px: Mobile devices
+481px — 768px: iPads, Tablets
+769px — 1024px: Small screens, laptops
+1025px — 1200px: Desktops, large screens
+1201px and more —  Extra large screens, TV
+*/
+
+
+/* Responsive css */
+
+@media only screen and (max-width: 320px) {
+
+
+   header{
+    font-size: 1.5rem;
+    width: 22rem;
+   }
+   header img{
+    width: 4rem;
+    height: 4rem;
+   }
+
+   .card{
+    width: 18rem;
+    /* margin-left: 0.9rem; */
+   /*  height: 39rem; */
+    margin-bottom: 1rem;
+   }
+   
+   .weather-icon{
+    width: 5rem;
+    height: 5rem;
+   }
+
+   .weather h1{
+    font-size: 20px;
+   }
+   .weather h2{
+    font-size: 30px;
+   }
+
+    .humidity,.wind{
+        font-size: 15px;
+       margin-right: 1.5rem;
+    }
+
+    #unique{
+        margin-left: -2rem;
+        margin-right: 3rem;
+    }
+
+    .col img{
+        width: 2rem;
+        height: 2rem;
+    }
+
+   .search input{
+    width: 11rem;
+    height: 4rem;
+   }
+
+   .search button{
+    width: 2rem;
+    height: 2rem;
+   }
+
+   .search button img{
+      width: 10px;
+   }
+
+   footer{
+    width: 22rem;
+    margin-top: 1rem;
+   }
+}
+  
